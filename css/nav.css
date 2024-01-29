@@ -1,0 +1,72 @@
+nav{
+    position: fixed;
+    /* left: -200px; */
+    top: 0;
+    z-index: 99;
+}
+
+nav .links{
+    width: 15%;
+    min-width: 200px;
+    background-color: var(--main-color);
+
+}
+nav ul{
+    position: relative;
+    min-height: 40%;
+    overflow:hidden;
+}
+
+nav li{
+    /* position: absolute; */
+    /* top: 100%; */
+}
+
+
+
+
+nav #drawer{
+    width: min-content;
+    position: relative;
+    background-color: #f9f6f6;
+    padding: 6px;
+}
+
+nav #drawer-icon{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+}
+
+nav #drawer i{
+    color: var(--main-color);
+    cursor: pointer;
+    transition: .5s;
+}
+nav #drawer i:hover{
+    color: var(--sec-color);
+}
+
+nav #nav-footer{
+    margin-left: -6%;
+    margin-right: -6%;
+}
+
+nav #nav-footer p{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, .6);
+}
+
+nav #nav-footer i{
+    color: rgba(255, 255, 255, .6);
+    margin-bottom: 8px;
+    font-size: 19px;
+    transition: .5s;
+}
+nav #nav-footer i:hover{
+    color: var(--sec-color);
+}
